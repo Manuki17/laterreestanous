@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>La Terre est à nous</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="../images/logo2.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <style href="./style.css"></style>
+    </head>
+
+<body>
+    <header>
+    <!--Barre de menus-->
+    <div class="nav_bar">
+                
+        <div class="header_title">faire un don</div>
+        <a href="don.html">
+            <div class="donation_button">
+                <div class="donation_button_content">faire un don</div>
+            </div>
+        </a>
+        <div class="menu" ontouchstart="">
+            <div class="menu_icon">☰</div>
+            <div class="menu_list">
+                <ul>
+                    <a href="../index.html"><li><div class="name">Accueil</div></li></a>
+                    <a href="actu.html"><li><div class="name">Actualités</div></li></a>
+                    <a href="agenda.html"><li><div class="name">Agenda</div></li></a>
+                    <a href="agir.html"><li><div class="name">Agir</div></li></a>
+                    <a href="contact.html"><li><div class="name">Contact</div></li></a>
+                    <a href="../en/don.html"><li><div class="name">FR | EN</div><img src="../images/fr.png"></li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="global_banner">
+        <img src="../images/banniere1.png" alt="banner" class="banner"/>
+        <a href="../index.html"><img src="../images/logo3.png" alt="logo" class="logo"/></a>
+    </div>
+</header>
+
+<!--Grand titre-->
+    <div class="body_content">
+        <div class="title">Faire un don</div>
+        <div class="content">Faire un don permettra à notre association de soutenir nos actions.</div>
+    </div>
+
+<div class="lesTrois">
+<!--Montant-->
+    <div class="don">
+        <form class="mont">
+            <h1>DON</h1>      
+                <label><input type="text" placeholder="Montant"/></label><br>
+                <div class="aligne">
+                    <input type="checkbox" class="checkstyle" id="donMensuel" />
+                    <label for="donMensuel">Don Mensuel</label>
+                </div>
+        </form>
+    </div>
+
+<!--Coordonnées-->
+    <div class="don">
+        <form class="coor">
+            <h1>COORDONNÉES</h1>      
+                <input type="text" placeholder="Mail*"/><br>
+                <input type="text" placeholder="Civilivité*" class="petitecase"/>
+                <input type="text" placeholder="Prénom*" class="moyennecase"/><br>
+                <input type="text" placeholder="Nom*"/><br>
+                <input type="text" placeholder="Adresse*"/><br>
+                <input type="text" placeholder="Compléments d'adresse"/><br>
+                <input type="text" placeholder="Code postal*" class="petitecase"/>
+                <input type="text" placeholder="Ville*" class="moyennecase"/><br>
+                <input type="text" placeholder="Pays*"/><br> 
+                <label>*Champs obligatoires</label>          
+        </form>
+    </div>
+
+<!--Paiement-->
+    <div class="don">
+        <form class="paie">
+            <h1>PAIEMENT</h1>      
+                <input type="text" placeholder="1234 1234 1234 1234"/><br>
+                <input type="text" placeholder="MM/AA"/>
+                <input type="text" placeholder="CVC"/><br>
+                <input type="submit" value="VALIDER" class="valid"/>
+                        
+        </form>
+    </div>
+</div>
+
+
+
+    <footer>
+        <a class="mentions" href="mentions.html">
+            <div class="footer_content">Réalisé par WSC ©️ 2023 - Mentions légales</div>
+        </a> 
+    </footer>
+
+</body>
+</html>
